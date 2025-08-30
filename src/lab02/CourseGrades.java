@@ -49,7 +49,7 @@ public class CourseGrades implements Analyzable {
     
     @Override
     /**
-     * to return 
+     * CourseGrades implementation of getAverage
      */
     public double getAverage() {
         double sum = 0;
@@ -61,6 +61,9 @@ public class CourseGrades implements Analyzable {
     }
     
     @Override
+    /**
+     * CourseGrades implementation of getHighest
+     */
     public GradedActivity getHighest() {
         GradedActivity highest = grades[0];
         
@@ -73,6 +76,9 @@ public class CourseGrades implements Analyzable {
     }
     
     @Override
+    /**
+     * CourseGrades implementation of getLowest
+     */
     public GradedActivity getLowest() {
         GradedActivity lowest = grades[0];
         

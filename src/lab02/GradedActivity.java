@@ -20,6 +20,10 @@ public class GradedActivity {
         return score;
     }
 
+    /**
+     * method to return A,B,C,D or F according to the score 
+     * @return Grade as char
+     */
     public char getGrade() {
         if (score >= 90) {
             return 'A';
